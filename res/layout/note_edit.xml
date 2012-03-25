@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:padding="@dimen/padding"
+	android:background="@drawable/border"
+	android:layout_margin="@dimen/padding">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/title"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText android:id="@+id/title" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:inputType="textCapWords" />
+
+	</LinearLayout>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/body"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText android:id="@+id/body" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:scrollbars="vertical" android:inputType="textCapSentences|textMultiLine"
+		 android:textAppearance="?android:attr/textAppearanceMedium" 
+		 android:gravity="top"/>
+
+	<Button android:id="@+id/confirm" android:text="@string/confirm"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

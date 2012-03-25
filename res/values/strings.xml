@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Notepad ICS</string>
+	<string name="no_notes">No Notes Yet</string>
+	<string name="menu_add">Add Note</string>
+	<string name="menu_delete">Delete Note</string>
+	<string name="title">Title</string>
+	<string name="body">Body</string>
+	<string name="confirm">Save</string>
+	<string name="delete_note">Delete</string>
+	<string name="edit_note">Edit Note</string>
+	<string name="note_saved">Note Saved</string>
+	<string name="note_updated">Note Updated</string>
+	<string name="num_selected">%d selected</string>
+	<string name="num_deleted">%1$d note%2$s deleted</string>
+	<string name="widget_empty_view_text">No notes</string>
+	<string name="app_widget_name">NotePad Widget</string>
+</resources>
